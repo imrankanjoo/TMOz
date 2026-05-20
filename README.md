@@ -12,7 +12,7 @@
 4. [Expected Output](#expected-output)
 5. [Parameters](#parameters)
 6. [Proposed Model](#proposed-model)
-7. [Evaluation](#evaluation)
+7. [Results](#results)
 8. [References](#references)
 9. [License](#license)
 
@@ -264,7 +264,7 @@ Brightness is decomposed into base and detail layers. The base layer is tone-com
 
 Hue is computed directly from the HDR image. Colorfulness is adapted using CIECAM16 under display conditions to improve the color reproduction of the final tone-mapped image.
 
-## Evaluation
+## Results
 
 ### Visual Comparison
 
@@ -286,29 +286,6 @@ Examples comparing TMOz with other tone mapping operators are shown below.
 
 ![Visual Comparison 4](Images/example4.jpg)
 
-## Psychophysical Performance Comparison
-
-### Contrast Scale Comparison
-
-**Figure 15.** Comparison of tone mapping operators using the contrast scale. Higher contrast scores indicate higher contrast images. TMOz achieved a moderate contrast ranking.
-
-![Contrast Scale Comparison](Images/contrast_scale.jpg)
-
-### Colorfulness Scale Comparison
-
-**Figure 16.** Comparison of tone mapping operators using the colorfulness scale. Higher colorfulness scores indicate more colorful images. TMOz ranked in the middle for colorfulness.
-
-![Colorfulness Scale Comparison](Images/colorfulness_scale.jpg)
-
-### Overall Preference Ranking
-
-**Figure 17.** Overall ranking of tone mapping operators based on preference. TMOz ranked first due to moderate contrast, moderate colorfulness, natural appearance, and better structuredness.
-
-![Overall Preference Ranking](Images/overall_preference.jpg)
-
-## Conclusion
-
-TMOz is a CIECAM16-based tone mapping model for HDR imaging. It adapts colorfulness and hue from HDR images and considers surround and display conditions to improve tone-mapped image quality. Objective and subjective evaluations show that the proposed model performs better than several existing tone mapping operators.
 
 ## References
 
